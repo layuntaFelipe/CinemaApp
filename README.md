@@ -24,7 +24,9 @@ O desafio consistia em 5 principais objetivos:
 5. Um grid com os filmes favoritos
 
 ### Funcionamento do App
-Ao terminar de pesquisar/clicar no butao de return ou na lupa, o texto escrito na searchBar é entao passado para o networkManager que é o objeto responsavel pelo networking do app com a API, ele entao faz o request para a API por meio de uma funcao com o texto passado pela search bar, e popula as estruturas responsaveis por resgatar os dados
+Primeiramente abrit o projeto no XCode, depois escolher o despositivo que deseja rodar o simulador, eu sujiro em um despositivo fisico pois implementei alguns features que dao feedback ao usuario que nao é possivle perceber no simulador.
+
+Ao abrir o app, va para a barra de pesquisa, pesquise por um filme, terminar de pesquisar/clicar no butao de return ou na lupa, o texto escrito na searchBar é entao passado para o networkManager que é o objeto responsavel pelo networking do app com a API, ele entao faz o request para a API por meio de uma funcao com o texto passado pela search bar, e popula as estruturas responsaveis por resgatar os dados
 
 Depois disso, devido os dados responsaveis por resgatar os dados estarem agora com dados da api, a Scrollview faz um looping por todos os filmes resgatados que entao foram colocados em um vetor, cada item do vetor é um filme, contendo uma ID, PosterURL e outros; por meio de uma extensao do tipo String eu fui capaz de criar uma funcao que carregaria a imagem do poster apenas passando seu URL, essa imagem entao foi colocada em um botao, formando assim um scroll horizontal de posters dos filmes pesquisados;
 
