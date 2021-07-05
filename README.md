@@ -2,7 +2,7 @@
 
 ## App desenvolvido para o desafio da Sthima
 
-O desafio da Sthima consistia em desenvolver um aplicativo moblie que utilizaria da API OMDB para popular o aplicativo com seus filmes.
+O desafio da Sthima consistia em desenvolver um aplicativo moblie, no meu caso IOS(escolhi utilizar a nova framework da Apple: SwiftUI pra fazer esse projeto) que utilizaria da API OMDB para popular o aplicativo com seus filmes.
 O desafio consistia em 5 principais objetivos:
 
 1. Permitir busca por filmes
